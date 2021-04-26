@@ -1,0 +1,147 @@
+.principal{
+width: 910px;
+height: 350px;
+}
+
+.imagen1{
+    width: 425px;
+    height: 300px;
+    padding-right: 2rem;
+}
+
+.imagen2{
+    width: 425px;
+    height: 300px;
+    padding-left: 2rem;
+    }
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Jomhuria', cursive;
+    color: crimson;
+    text-shadow: 5px 5px 5px greenyellow;
+    
+}
+
+h2{
+font-size: 45px;
+text-align: center;
+font-family: 'Major Mono Display', monospace;
+}
+h3{
+
+    font-size: 35px;
+    text-align: center;
+    margin: 0%;
+    font-family: 'Major Mono Display', monospace;
+}
+
+h4{
+
+    font-size: 35px;
+    text-align: left;
+    margin: 0%;
+    font-family: 'Major Mono Display', monospace;
+    margin-left: 3rem;
+}
+
+
+p{
+    font-size: 25px;
+    text-align: justify;
+    padding: 2rem;
+    margin: 0%;
+    font-family: 'Jomhuria', cursive;
+  }
+.maps{
+    
+    width:90%;
+    justify-content: center;
+}
+
+.contenedor{
+    background-color: grey;
+    width: 70%;
+    float: left;
+}
+.lateral{
+    display: flex;
+    flex-direction: column;
+    background-color:crimson;
+    width: 30%;
+    float: right;
+    min-height: 100px;
+}
+
+.articulos{
+    display: flex;
+}
+
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    margin: -1px;
+
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#boton{
+    background-color: #00C2CB;
+    color: #fff;
+    margin-top: 4rem ;
+    margin-bottom: 4rem ;
+    width: 60%;
+    border:#00C2CB ;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 3rem;
+    font-family: 'Major Mono Display', monospace;
+}
+input{
+    margin-top: 2rem;
+    padding: .5rem;
+    font-size: 1.5rem;  
+    width: 70%;
+    border: 1px solid #000;
+    border-radius: 6px;
+    border-width: .25rem; 
+
+}
+
+::placeholder {
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Jomhuria', cursive;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+
+  @media (min-width: 480px) and (max-width: 1024px)  {
+
+    
+    .contenedor{
+        width: 100%;
+        float:none;
+    }
+    .lateral{
+        width: 100%;
+        float:none;
+    }
+    
+}
